@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pepsi Website Landing page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#"><img src="assets/logo.png" class="logo" /></a>
+        <div class="toggleMenu" onclick="menuToggle();"></div>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            THAT'S WHAT <br />
+            <span>I LIKE</span>
+          </h2>
+          <p>
+            Pepsi is a carbonated soft drink with a cola flavor, manufactured by
+            PepsiCo. It was originally created and developed in 1893 by Caleb
+            Bradham in the United States, and became known as Pepsi-Cola in
+            1898, before shortening to Pepsi in 1961.
+          </p>
+          <a href="#">View All products</a>
+        </div>
+        <div class="imgBox">
+          <img src="assets/pepsi001.png" class="pepsi" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="assets/pepsi001.png"
+            onclick="imgSlider('assets/pepsi001.png');changeBgColor('#0062b3')"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/pepsi002.png"
+            alt="pepsi"
+            onclick="imgSlider('assets/pepsi002.png');changeBgColor('#e60c2c')"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/pepsi003.png"
+            alt="pepsi"
+            onclick="imgSlider('assets/pepsi003.png');changeBgColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+
+      <ul class="social_links">
+        <li>
+          <a href="https://www.facebook.com/pepsi/?brand_redir=56381779049"
+            ><img src="assets/facebook.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/pepsi"
+            ><img src="assets/twitter.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/pepsi/" target="_blank"
+            ><img src="assets/instagram.png"
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
